@@ -1,0 +1,14 @@
+{
+  "name": "devops-project",
+  "version": "1.0.0",
+  "description": "Web + PostgreSQL app with Docker Compose and a GitHub Actions CI/CD pipeline",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
